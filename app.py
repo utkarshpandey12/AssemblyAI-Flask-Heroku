@@ -64,5 +64,5 @@ def my_form_post():
     return render_template('my-form-1.html',processed_text=results)
 
 
-if __name__ == "__main__":
-    app.run()
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=True)
