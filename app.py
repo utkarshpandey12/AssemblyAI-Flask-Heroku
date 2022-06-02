@@ -51,7 +51,7 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
-    assemblyai_token= 'your_token_here'
+    assemblyai_token= '1717426a768a4748a6ed25b07cb31160'
     recording_endpoint = request.form['text']
     transcribe_id = get_transcribe_id(assemblyai_token,recording_endpoint)
     result = {}

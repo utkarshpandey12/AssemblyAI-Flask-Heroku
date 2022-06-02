@@ -2,7 +2,7 @@
 <div id="topmost">
 <h1><span class="badge badge-secondary" style="margin-top: 5px; margin-left: 10px;">AssemblyAI Transcriber</span></h1>
 
-<h4><span class="badge badge-primary" style="margin-top: 5px; margin-left: 10px;">Requirements - A 1-channel 16bit 8kHz .wav audio file link with some speech.</span></h4>
+<h4><span class="badge badge-primary" style="margin-top: 5px; margin-left: 10px;">Requirements - A 1-channel 16bit .wav audio file link with some speech.</span></h4>
 <br></br>
 <h4><span class="badge badge-primary" style="margin-top: -45px; margin-left: 10px;">Source - Twilio or S3 bucket link. Paste the Link and submit</span></h4>
 <br></br>
@@ -41,7 +41,7 @@
 <body>
     <div id="content">
         <form method="POST" style="margin-top: -40px; margin-left: 250px; width: 800px;">
-            <input name="text" size="60" style="font-size:16pt;" placeholder="Enter audio url here ex. Twilio etc or use the one given above as example link.">
+            <input name="text" size="60" style="font-size:16pt;" placeholder="Enter audio url ex- https://api.twilio.com/.. or https://s3.ap-southeast-1.amazonaws.com/..">
             <input type="submit" name="anything_submit" value="Submit" onclick="$('#loading').show(); $('#content').hide(); $('#topmost').hide();">
         </form>
     </div>
